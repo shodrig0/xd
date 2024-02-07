@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     reproducirBtn.addEventListener('click', function() {
         if (video.paused) {
-            video.style.display = 'block'; // Muestra el video al reproducir
+            video.style.display = 'block';
             video.play();
             reproducirBtn.classList.remove('bi-play');
             reproducirBtn.classList.add('bi-pause');

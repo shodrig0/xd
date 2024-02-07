@@ -34,7 +34,7 @@ h1 {
 .btn {
     margin-top: 10px;
     position: absolute;
-    top: 10px; /* Ajusta según la posición vertical deseada */
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -69,14 +69,13 @@ video {
     font-size: 2.5rem;
 }
 
-/* Estilos específicos para dispositivos móviles */
 @media only screen and (max-width: 600px) {
     .btn {
-        font-size: 1.5rem; /* Ajusta el tamaño del botón para dispositivos móviles */
+        font-size: 1.5rem;
     }
 
     .textofc {
-        font-size: 1.5rem; /* Ajusta el tamaño del texto para dispositivos móviles */
+        font-size: 1.5rem;
     }
 }
 
