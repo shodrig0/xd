@@ -81,7 +81,7 @@ video {
 }
 
 .fondo-footer {
-    background: url(/velas.gif) repeat-x center center;
+    background: url(velas.gif) repeat-x center center;
     background-size: contain;
     padding: 20px;
     margin-top: 100px;
