@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    background-color:rgb(162, 139, 253);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Honk', system-ui;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    background-color: rgb(162, 139, 253);
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    margin-top: 10px;
+    position: absolute;
+    top: 10px; /* Ajusta según la posición vertical deseada */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    padding: 10px;
+    background-color: rgb(162, 139, 253);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+video {
+    display: none;
+    width: 100%;
+    max-width: 100vw;
+    height: 500px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.textofc {
+    margin-top: 50px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 0, 43);
+    padding: 10px;
+    z-index: 2;
+    font-family: 'Single Day', cursive;
+    font-size: 2.5rem;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .btn {
+        font-size: 1.5rem; /* Ajusta el tamaño del botón para dispositivos móviles */
+    }
+
+    .textofc {
+        font-size: 1.5rem; /* Ajusta el tamaño del texto para dispositivos móviles */
+    }
+}
+
+.fondo-footer {
+    background: url(/velas.gif) repeat-x center center;
+    background-size: contain;
+    padding: 20px;
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+}
